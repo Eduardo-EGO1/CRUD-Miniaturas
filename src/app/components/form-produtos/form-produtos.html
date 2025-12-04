@@ -1,0 +1,23 @@
+<form [formGroup]="form">
+
+  <mat-form-field>
+    <input matInput placeholder="Nome" formControlName="name" />
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <input matInput placeholder="Descrição" formControlName="description" />
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <input matInput placeholder="Preco" formControlName="price" />
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <input matInput placeholder="Categoria" formControlName="category" />
+  </mat-form-field>
+  <br />
+  <button mat-flat-button (click)=" onSubmit()">
+    Cadastrar
+  </button>
+  <button mat-flat-button (click)="onCancel()">Cancelar</button>
+</form>

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "b735",
+      "name": "Miniatura Naruto Modo Sábio",
+      "description": "Figura do Naruto em Modo Sábio com pintura premium.",
+      "price": "128",
+      "category": "Naruto"
+    },
+    {
+      "id": "58ee",
+      "name": "Miniatura Luffy Gear 4",
+      "description": "Miniatura do Luffy em sua transformação Gear 4 Boundman.",
+      "price": 180,
+      "category": "One Piece"
+    },
+    {
+      "id": "a042",
+      "name": "Miniatura Tanjiro Nichirin",
+      "description": "Tanjiro com espada Nichirin em pose de ataque.",
+      "price": 110,
+      "category": "Demon Slayer"
+    },
+    {
+      "id": "05cb",
+      "name": "Miniatura Nezuko Kamado",
+      "description": "Nezuko em forma demoníaca com detalhes luminosos.",
+      "price": "131",
+      "category": "Demon Slayer"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<mat-sidenav-container class="admin-sidenav-container">
+
+  <mat-sidenav class="admin-sidenav" mode="side" opened>
+
+    <div class="admin-panel-header">Admin Panel</div>
+
+    <mat-nav-list>
+      <a mat-list-item routerLink="/produtos" routerLinkActive="active-link">Dashboard</a>
+
+      <a mat-list-item routerLink="/produtos" routerLinkActive="active-link">Produtos</a>
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content class="admin-content">
+
+    <main class="router-view-area">
+      <router-outlet></router-outlet>
+    </main>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
